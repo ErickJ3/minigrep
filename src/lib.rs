@@ -61,5 +61,5 @@ pub fn search_case_insesitive<'a>(query: &str, contents: &'a str) -> Vec<&'a str
         }
     }
 
-    results
+    return results
 }
